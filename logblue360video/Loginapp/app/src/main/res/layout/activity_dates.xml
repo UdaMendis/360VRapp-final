@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/buttonlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".Dates">
+
+    <EditText
+        android:id="@+id/Birthday"
+        android:layout_width="392dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:editable="false"
+        android:focusable="false"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/speedn"
+        android:layout_width="376dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:fontFamily="@font/aclonica"
+        android:hint="avg spped"
+        android:padding="10dp"
+        android:textColor="#191718"
+        android:textColorHint="#6D7187" />
+
+    <TextView
+        android:id="@+id/calon"
+        android:layout_width="376dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:fontFamily="@font/aclonica"
+        android:hint="calories"
+        android:padding="10dp"
+        android:textColor="#191718"
+        android:textColorHint="#6D7187" />
+
+    <TextView
+        android:id="@+id/pwrn"
+        android:layout_width="376dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:fontFamily="@font/aclonica"
+        android:hint="avg power"
+        android:padding="10dp"
+        android:textColor="#191718"
+        android:textColorHint="#6D7187" />
+
+    <TextView
+        android:id="@+id/distn"
+        android:layout_width="376dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/white"
+        android:ems="10"
+        android:fontFamily="@font/aclonica"
+        android:hint="distance"
+        android:padding="10dp"
+        android:textColor="#191718"
+        android:textColorHint="#6D7187" />
+
+
+
+
+</LinearLayout>
